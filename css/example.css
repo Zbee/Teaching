@@ -1,0 +1,34 @@
+/*non-id, non-class selectors*/
+body {
+  background: blue;
+}
+
+/*id selector*/
+#cake {
+  background: yellow;
+}
+
+/*class selector*/
+.panda {
+  background: red;
+}
+
+/*attribute selector*/
+input[type="text"] {
+  background: white;
+}
+
+/*specific heirarchy selector*/
+body > #cake {
+  background: green;
+}
+
+/*non-specific heirarchy selector*/
+.panda #cake {
+  background: blue;
+}
+
+/*multiple selectors*/
+#cake, .panda {
+  background: gray;
+}
